@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 //Creating array list for tags
 public class TagList {
