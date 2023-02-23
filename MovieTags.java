@@ -38,7 +38,7 @@ public class MovieTags {
         
             String input = sc.nextLine();
             switch (input) {
-				//Case T to count the number of times that input tag occurs
+		//Case T to count the number of times that input tag occurs
                 case "T":
                     System.out.print("Tag to search for: ");
                     String name = sc.nextLine();
@@ -50,7 +50,7 @@ public class MovieTags {
                         System.out.println("occurred " + tag.getCount() + " times.");
                     }
                     break;
-					//Case C to find the tag that occurs as many times as the input count
+		//Case C to find the tag that occurs as many times as the input count
                 case "C":
                     System.out.print("Count to search for: ");
                     input = sc.nextLine();
@@ -70,7 +70,7 @@ public class MovieTags {
                                 System.out.println("* " + tagsFound.get(i).getName());
                             }
                         }
-						//Using try catch for NumberFormatException so the string is in correct format or error message is shown
+		    //Using try catch for NumberFormatException so the string is in correct format or error message is shown
                     } catch (NumberFormatException e) {
                         System.out.println("Is " + input + " even a number? C'mon, man!");
                     }
@@ -88,7 +88,7 @@ public class MovieTags {
             Scanner sc = new Scanner(file);
             while (sc.hasNextLine()) {
                 String line = sc.nextLine();
-				//line is split into an array using the comma
+		//line is split into an array using the comma
                 String[] arr = line.split(",");
                 String tag = arr[2];
                 tags.add(tag);
