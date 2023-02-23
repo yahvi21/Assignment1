@@ -57,8 +57,5 @@ public class TagList {
             // Placing the element at its correct position in the sorted subarray
             tags.set(i + 1, element);
         }
-    }
-    
-    
-    
+    }    
 }
