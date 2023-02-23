@@ -17,7 +17,7 @@ public class MovieTags {
         read(tags, filename);
         tags.sort();
         
-        //List most and least popular tags
+        //Lists tags in ascending order
         System.out.println(" ========================================== ");
         System.out.println("*** Highest 3 movies by count ***");
         for (int i = 1; i <= 3; ++i) {
