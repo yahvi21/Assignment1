@@ -1,5 +1,3 @@
-# Assignment1
-
 Yahvi Bhatnagar - ASSIGNMENT 1
 20684595
 
