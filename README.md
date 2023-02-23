@@ -2,6 +2,7 @@ Yahvi Bhatnagar - ASSIGNMENT 1
 20684595
 
 This project will read data from a file of tags called tags.csv, and sort them from the lowest to highest count they occured in the csv file. It will also allow users to search for induvidual tags by their count or name. 
+The array list does not store the same tag name twice. If the tag name is already available it increments the count of the tag. If not present then adds a new tag with count 1. Hence this way it uses less memory to store the tags in the array list, and further improves the search time.
 
 Search used - Linear search to find the highest and lowest count easily. 
 
